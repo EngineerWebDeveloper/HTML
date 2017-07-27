@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Complete HTML</title>
+</head>
+<body>
+
+<h1>1 This is heading 1</h1>
+<h2>2 This is heading 2</h2>
+<h3> This is heading 3 ... till 6</h3>
+<p title='John "ShotGun" Nelson'>
+4 This is a paragraph.
+</p>
+<br>
+<b>5 This text is bold</b><br>
+<strong>6 This text is strong</strong><br>
+<i>7 This text is italic</i><br>
+<em>8 This text is emphasized</em><br>
+<h2>9 HTML <small>Small</small> Formatting</h2>
+<h2>10 HTML <mark>Marked</mark> Formatting</h2>
+<p>11 My favorite color is <del>blue</del> red.</p>
+<p>12 My favorite <ins>color</ins> is red.</p>
+<p>13 This is <sub>subscripted</sub> text.</p>
+<p>14 This is <sup>superscripted</sup> text.</p>
+<p>15 WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+16 For 50 years, WWF has been protecting the future of nature.
+The world's leading conservation organization,
+WWF works in 100 countries and is supported by
+1.2 million members in the United States and
+close to 5 million globally.
+</blockquote>
+<p>17 The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+<address>
+18 Written by John Doe.<br> 
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<p><cite>19 The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+<bdo dir="rtl">20 This text will be written from right to left</bdo>
+<!-- Write your comments here -->
+<!-- Do not display this at the moment
+<img border="0" src="pic_mountain.jpg" alt="Mountain">
+-->
+<!--[if IE 9]>
+    .... some HTML here ....
+<![endif]-->
+<p> 21 Table</p>
+<table >
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+<p> 22 unordered list </p>
+<ul>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ul>
+<p> 23 ordered list </p>
+<ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+<p>  24 Link  </p>
+<a href="https://www.youtube.com">This is a link</a>
+<br>
+<p> 25 video</p>
+<video width="320" height="240" autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+<br>
+<p> 26 audio </p>
+<audio controls>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="horse.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+<br>
+<p> 27 iframe </p>
+<iframe width="420" height="315"
+src="https://www.youtube.com/watch?v=FM7MFYoylVs">
+</iframe>
+<br>
+<p> 28 map </p>
+<div id="map" style="width:400px;height:400px"></div>
+<script>
+function myMap() {
+var mapProp= {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+};
+var map=new google.maps.Map(document.getElementById("map"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+<p> 29 image</p>
+<img src="html.png" alt="W3Schools.com" width="104" height="142">
+<p> 30 form </p>
+<form action="/action_page.php" style="background-color:yellow;">
+  First name:<br>
+  <input type="text" name="firstname" value="Mickey">
+  <br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Mouse">
+  <br><br>
+   <input type="checkbox" name="vehicle" value="Car" checked> I have a car<br>
+   <select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+  <input type="submit" value="Submit">
+</form> 
+<p> 31 SVG </p>
+<svg width="400" height="100">
+  <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+</svg>
+
+
+</body>
+</html>
